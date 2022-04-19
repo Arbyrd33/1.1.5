@@ -291,10 +291,12 @@ Use addArtist to do the following:
 4. Return the array
 🌟 EXAMPLE: Invoking addArtist(artists, 'John Doe', '1988-2022', 'Full Stack Development', 'African American', 'I have a background in customer service at Big Retail Chain. I am attending BloomTech to become a Frontend Developer.') should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(array, name, years, genre, natl, bio) {
+  array.push({name: name, years: years, genre: genre, nationality: natl, bio: bio})
+  return array;
 }
 
+console.log(addArtist(artists, `Arbor`, `1999-2022`, `Full stack development`, `Puerto Rican`, `I've got a background in retail and have been self taught in HTML and CSS since I was in middle school. I'm attending BloomTech to become a front end developer.`));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
