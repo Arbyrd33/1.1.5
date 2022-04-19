@@ -218,7 +218,8 @@ console.log(`The first artist in the array is`,artists[0].name);
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 (not auto tested): 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Fix this issue and console.log() to check your work. */
-
+artists[9].name = `Vincent Van Gogh`;
+console.log(artists[9].name,`'s name has been corrected.`)
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
