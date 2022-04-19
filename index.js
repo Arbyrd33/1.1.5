@@ -348,10 +348,16 @@ Use artistByCountry to do the following:
 🌟 EXAMPLE: Invoking artistByCountry(artists, 'Spanish') will return: [ 'Salvador Dali', 'Pablo Picasso', 'Francisco Goya']
 */
 
-function artistByCountry(/*Your Code Here*/){
-  /*Your Code Here*/
+function artistByCountry(array, string){
+  const cherryPicked = []
+  for(let i=0; i<array.length;i++){
+    if(array[i].nationality == string){
+      cherryPicked.push(array[i].name);
+    }
+  }
+  return cherryPicked;
 }
-
+console.log(`artistsByCountry(), task 9`, artistByCountry(artists, `Spanish`));
 
 
 /* ***** END OF TASKS ***** */
